@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package jsat.guitool;
 
 import java.awt.BorderLayout;
@@ -22,7 +17,7 @@ import jsat.distributions.ContinousDistribution;
 
 /**
  *
- * @author eman7613
+ * @author Edward Raff
  */
 public class DistributionSelectionDialog extends JDialog
 {

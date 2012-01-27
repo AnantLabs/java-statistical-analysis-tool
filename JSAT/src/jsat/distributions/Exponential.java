@@ -5,7 +5,7 @@ import jsat.linear.Vec;
 
 /**
  *
- * @author eman7613
+ * @author Edward Raff
  */
 public class Exponential extends ContinousDistribution
 {
