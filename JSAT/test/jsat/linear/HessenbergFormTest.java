@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package jsat.linear;
 
 import java.util.concurrent.Executors;
@@ -15,7 +11,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author eman7613
+ * @author Edward Raff
  */
 public class HessenbergFormTest
 {
