@@ -50,3 +50,7 @@ public class LoadingDataSetExample
     }
 }
 }}}
+
+== Next Example == 
+
+Next, we look at taking a data set and setting up a classification task [ClassificationExample]
