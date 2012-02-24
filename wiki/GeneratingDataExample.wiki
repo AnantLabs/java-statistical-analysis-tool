@@ -43,7 +43,7 @@ public class GeneratingDataExample
             {0.0, 1.0} //Just make sure its still symetric! 
         });
 
-        //And we create 3 different means
+        //And we create 4 different means
         Vec mean0 = DenseVector.toDenseVec(0.0, 0.0);
         Vec mean1 = DenseVector.toDenseVec(0.0, 4.0);
         Vec mean2 = DenseVector.toDenseVec(4.0, 0.0);
