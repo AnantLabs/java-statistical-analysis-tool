@@ -2,7 +2,9 @@
 
 = Introduction =
 
-Here is an example on how to load a data set using the JSAT library. Examples provided assume that a copy of the UCI data set's ARFF files are in the same directory. You can grab them from [http://www.cs.waikato.ac.nz/ml/weka/index_datasets.html here]. You may need to change the path accordingly. 
+This is the first example code for using the JSAT library. The code examples that follow will give you a quick introduction for using JSAT.
+
+This example shows how to load up a data set, and access some information about it. Examples provided assume that a copy of the UCI data set's ARFF files are in the same directory. You can grab them from [http://www.cs.waikato.ac.nz/ml/weka/index_datasets.html here]. You may need to change the path accordingly. The other examples will use this data as well, so keep it around! They can also be useful for playing with different classifiers. 
 
 = Code =
 
