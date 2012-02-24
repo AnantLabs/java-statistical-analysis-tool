@@ -7,7 +7,7 @@ In the [ClassificationCrossValidationExample previous example], we saw the basic
 In this example, we use a data transform the visualize our data set. While visualizations are not always useful, they can give us an intuitive understanding about the data, especially if you understand what the visualization means in the context of the method used to reduce the dimensionality. This example uses a method known as [http://en.wikipedia.org/wiki/Principal_component_analysis Principal Component Analysis]. 
 
 
-= Details =
+= Code =
 
 {{{
 import java.io.File;
