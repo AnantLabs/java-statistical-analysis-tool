@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author eman7613
+ * @author Edward Raff
  */
 public class ListUtilsTest
 {
@@ -73,5 +73,25 @@ public class ListUtilsTest
             pos += l.size();
         }
         assertEquals(500, pos);
+    }
+    
+    @Test
+    public void testSwap()
+    {
+        System.out.println("swap");
+        List<Long> test = new ArrayList<Long>();
+        test.add(1L);
+        test.add(2L);
+        ListUtils.swap(test, 0, 1);
+        assertEquals(2, test.get(0).longValue());
+        assertEquals(1, test.get(1).longValue());
+        
+        ListUtils.swap(test, 0, 1);
+        assertEquals(1, test.get(0).longValue());
+        assertEquals(2, test.get(1).longValue());
+        
+        ListUtils.swap(test, 0, 0);
+        assertEquals(1, test.get(0).longValue());
+        assertEquals(2, test.get(1).longValue());
     }
 }
