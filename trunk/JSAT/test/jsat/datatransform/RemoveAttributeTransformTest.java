@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author eman7613
+ * @author Edward Raff
  */
 public class RemoveAttributeTransformTest
 {
