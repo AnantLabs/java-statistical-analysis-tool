@@ -14,3 +14,6 @@ Here are some examples to help you get started!
  * [ClassificationCrossValidationExample	Model Testing with Cross Validation]
  * [DataTransformsExample Applying Data Transformations and Visualizing ]
  * [GeneratingDataExample Generating a data set with Guassians ]
+
+=== Text ===
+* [LoadingTextDataSpam How to load a text data set] . Spam is used as an example 
