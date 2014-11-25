@@ -1,4 +1,4 @@
-package jsat.clustering;
+package jsat.clustering.kmeans;
 
 import java.util.*;
 import java.util.concurrent.ExecutorService;
@@ -6,6 +6,7 @@ import java.util.concurrent.Executors;
 import jsat.DataSet;
 import jsat.SimpleDataSet;
 import jsat.classifiers.DataPoint;
+import jsat.clustering.SeedSelectionMethods;
 import jsat.distributions.Uniform;
 import jsat.linear.distancemetrics.DistanceMetric;
 import jsat.linear.distancemetrics.EuclideanDistance;
